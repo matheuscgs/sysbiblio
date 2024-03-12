@@ -1,0 +1,121 @@
+.background-image {
+    background-image: url('../imagens/livros.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    width: 130px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 20px;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-facebook:hover {
+    background-color: #304573;
+}
+
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fontes */
+body {
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto como padrão */
+}
+
+/* Espaçamento do topo */
+.container {
+    margin-top: 20px;
+}
+
+.container-index {
+    margin-top: 0px;
+}
+
+/* Estilo da tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Estilo do cabeçalho da tabela */
+.table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Estilo das células de dados */
+.table td {
+    padding: 12px;
+}
+
+/* Estilo das linhas pares da tabela */
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo das células quando passa o mouse */
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para o título */
+h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif; /* Usando a fonte Roboto como padrão */
+}
+
+/* Estilo para o formulário de cadastro */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
