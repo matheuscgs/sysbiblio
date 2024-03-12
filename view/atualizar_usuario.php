@@ -54,6 +54,7 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
     <link rel="stylesheet" href="../style/styles.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  crossorigin="anonymous" />
 </head>
 <body>
 
@@ -95,7 +96,7 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
         <button type="submit" class="btn btn-primary">Atualizar</button>
     </form>
 </div>
-
+</br></br>
 <?php include('../componentes/rodape.php'); ?>
 
 <script>
