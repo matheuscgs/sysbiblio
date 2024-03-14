@@ -1,9 +1,9 @@
 <?php
 // Parâmetros de conexão
-$servername = "200.9.22.2";
-$username = "matheus";
-$password = "B4nc0#2024";
-$dbname = "biblioteca";
+$servername = "";
+$username = "";
+$password = "";
+$dbname = "";
 
 try {
     $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
